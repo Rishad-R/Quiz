@@ -1,16 +1,61 @@
-body{
+body {
     background-color: #000000;
-    
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
-#frontlogo{
-    margin-top: 75px;
-    margin-bottom: 10px;
+
+#frontlogo {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -130px;
     margin-left: 10px;
     margin-right: 10px;
+    transition: all 0.4s;
+    transform-origin: center;
+}
+
+#frontlogo:hover {
+    transform: scale(1.3);
+}
+
+.frontstartbutton {
     text-align: center;
-    transition:all 0.4s;
+    margin-top: 100px;
+}
+
+.frontstartbutton button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: #ff0000;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.frontstartbutton button:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(252, 245, 245);
+    text-align: center;
+    font-weight: 700; 
+    margin-top: 25px; 
+    text-shadow: 2px 2px 1px white;
 
 }
-#frontlogo:hover{
-    transform: scale(1.3);
+
+#sidepic1 {
+    text-align: left;
+}
+#sidepic1 img {
+    height: 100px; 
+ 
 }

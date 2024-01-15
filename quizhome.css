@@ -56,7 +56,7 @@ h1 {
     text-align: left;
 }
 #sidepic1 img {
-    height: 100px; 
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -78,5 +78,14 @@ h1 {
     position: absolute;
     bottom: 0;
     right: 0;
+    text-align: right;
+}
+#sidepic4 {
+    text-align: left;
+}
+#sidepic4 img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     text-align: right;
 }
